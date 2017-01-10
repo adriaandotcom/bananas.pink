@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title>{{ page.title || "Pink Bananas VLOG" }}</title>
+<title>{% if page.title %}{{ page.title | escape }}{% else %}Pink Bananas VLOG{% endif %}</title>
 <style>
 body, html {
   height: 100%;
