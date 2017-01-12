@@ -1,4 +1,4 @@
 <h1 class="grow-rotate">
-  <a href="https://www.youtube.com/channel/UCtkiLTzGm8h0Xc2FqmDz8iw">Go to Pink Bananas' YouTube channel</a>
+  <a href="https://www.youtube.com/channel/UCtkiLTzGm8h0Xc2FqmDz8iw">Pink Bananas</a>
 </h1>
-<p>A VLOG by Adriaan</p>
+<p>IK BEN OOK F*CKING COOL</p>
