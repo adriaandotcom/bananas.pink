@@ -27,6 +27,9 @@ iframe {
   width: 800px;
   height: 450px;
 }
+#background-video {
+  visibility: hidden;
+}
 </style>
 
 <div class="wrapper">
@@ -46,16 +49,16 @@ var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('background-video', {
     events: {
-      onReady: onPlayerReady,
-      onStateChange: function() {
-        console.log('arguments', arguments);
+      onReady: function() {
+        player.playVideo();
+        player.mute();
+      },
+      onStateChange: function(state) {
+        if (state.data === 1) {
+          document.getElementById('background-video').style.visibility = 'visible';
+        }
       }
     }
   });
-}
-
-function onPlayerReady() {
-  player.playVideo();
-  player.mute();
 }
 </script>
