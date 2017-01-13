@@ -46,7 +46,10 @@ var player;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('background-video', {
     events: {
-      'onReady': onPlayerReady
+      onReady: onPlayerReady,
+      onStateChange: function() {
+        console.log('argumetns', arguments);
+      }
     }
   });
 }
