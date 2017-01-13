@@ -8,6 +8,7 @@
   width: 100%;
   height: 90%;
   transition: background-color;
+  transition-duration: 500ms;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .wrapper:hover .overlay {
