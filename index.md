@@ -48,7 +48,7 @@ function onYouTubeIframeAPIReady() {
     events: {
       onReady: onPlayerReady,
       onStateChange: function() {
-        console.log('argumetns', arguments);
+        console.log('arguments', arguments);
       }
     }
   });
