@@ -32,5 +32,27 @@ iframe {
 <div class="wrapper">
   <div class="overlay"></div>
   <div class="letters"></div>
-  <iframe id="background-video" src="https://www.youtube.com/embed/JzwLky3TP2U?rel=0&version=3&autoplay=1&controls=0&showinfo=0&loop=1&cc_load_policy=0&disablekb=1&enablejsapi=1&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+  <iframe id="background-video" src="https://www.youtube.com/embed/JzwLky3TP2U?rel=0&version=3&autoplay=0&controls=0&showinfo=0&loop=1&cc_load_policy=0&disablekb=1&enablejsapi=1&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('background-video', {
+    events: {
+      'onReady': onPlayerReady
+    }
+  });
+}
+
+function onPlayerReady() {
+  player.playVideo();
+  player.mute();
+}
+</script>
