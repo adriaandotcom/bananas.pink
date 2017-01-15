@@ -33,7 +33,7 @@ iframe {
 .go {
   margin: 0;
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   text-align: center;
   left: 0;
   right: 0;
