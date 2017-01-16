@@ -37,6 +37,7 @@ iframe {
   text-align: center;
   left: 0;
   right: 0;
+  width: 100%;
 }
 .go a {
   text-decoration: none;
