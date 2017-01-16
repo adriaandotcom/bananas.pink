@@ -51,7 +51,7 @@ iframe {
 
 <section>
   <h1 class="print">Pink Bananas Vlog</h1>
-  <p class="print">A vlog by Adriaan</p>
+  <p class="print">Just a little different</p>
   <div class="wrapper">
     <div class="overlay"></div>
     <div class="letters"></div>
@@ -62,8 +62,8 @@ iframe {
 </section>
 
 <section>
-  <h1>This is section #2</h1>
-  <p>Why?</p>
+  <h1>Just a little different</h1>
+  <p>With Pink Bananas I will take you on my journey around this world. While travaling I vlog about the cultures I encounter, do something crazy once in a while and show you my world. I want to create an entertaining piece of content but not limited to that. I can be confronting but I will be authentic.</p>
 </section>
 
 <script>
