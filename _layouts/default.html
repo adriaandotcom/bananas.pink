@@ -11,6 +11,21 @@
        url('/fonts/peppermint.woff') format('woff'), /* Pretty Modern Browsers */
        url('/fonts/peppermint.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
+@-webkit-keyframes fadingaway {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@-moz-keyframes fadingaway {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@keyframes fadingaway { 
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
 body, html {
   height: 100%;
   margin: 0;
@@ -22,6 +37,13 @@ body, html {
   opacity: 0.8;
   text-transform: uppercase;
   letter-spacing: 5px;
+  
+  /* Background animated gradient */
+  background: linear-gradient(180deg, #d41378, #d75e9d);
+  background-size: 400% 400%;
+  -webkit-animation: fadingaway 4s ease infinite;
+  -moz-animation: fadingaway 4s ease infinite;
+  animation: fadingaway 4s ease infinite;
 }
 h1 {
   margin: 0;
