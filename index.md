@@ -44,9 +44,14 @@ iframe {
 .go a:hover {
   text-decoration: underline;
 }
+.print {
+  display: none;
+}
 </style>
 
 <section>
+  <h1 class="print">Pink Bananas Vlog</h1>
+  <p class="print">A vlog by Adriaan</p>
   <div class="wrapper">
     <div class="overlay"></div>
     <div class="letters"></div>
