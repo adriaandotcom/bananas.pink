@@ -46,13 +46,20 @@ iframe {
 }
 </style>
 
-<div class="wrapper">
-  <div class="overlay"></div>
-  <div class="letters"></div>
-  <iframe id="background-video" src="https://www.youtube.com/embed/McABStdJWYA?rel=0&version=3&autoplay=0&controls=0&showinfo=0&loop=1&cc_load_policy=0&disablekb=1&enablejsapi=1&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-</div>
+<section>
+  <div class="wrapper">
+    <div class="overlay"></div>
+    <div class="letters"></div>
+    <iframe id="background-video" src="https://www.youtube.com/embed/McABStdJWYA?rel=0&version=3&autoplay=0&controls=0&showinfo=0&loop=1&cc_load_policy=0&disablekb=1&enablejsapi=1&iv_load_policy=3&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+  </div>
 
-<p class="go"><a href="https://www.youtube.com/channel/UCtkiLTzGm8h0Xc2FqmDz8iw">Go to Pink Bananas' YouTube channel</a></p>
+  <p class="go"><a href="https://www.youtube.com/channel/UCtkiLTzGm8h0Xc2FqmDz8iw">Go to Pink Bananas' YouTube channel</a></p>
+</section>
+
+<section>
+  <h1>This is section #2</h1>
+  <p>Why?</p>
+</section>
 
 <script>
 var tag = document.createElement('script');
