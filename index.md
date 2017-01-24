@@ -19,7 +19,7 @@
 
 <section>
   <h1>Pink Bananas Vlog</h1>
-  <h2>Just a little different</h2>
+  <h2 class="tagline">Just a little different</h2>
 
   <p class="go"><a href="https://www.youtube.com/channel/UCtkiLTzGm8h0Xc2FqmDz8iw">Go to Pink Bananas' YouTube channel</a></p>
 </section>
