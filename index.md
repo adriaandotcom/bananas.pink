@@ -18,7 +18,7 @@
 </style>
 
 <section>
-  <h1 class="title">Pink Bananas</h1>
+  <h1 class="title go"><a href="https://www.youtube.com/channel/UCtkiLTzGm8h0Xc2FqmDz8iw?sub_confirmation=1">Pink Bananas</a></h1>
   <h2 class="tagline">Just a little different</h2>
 
   <p class="go"><a href="https://www.youtube.com/channel/UCtkiLTzGm8h0Xc2FqmDz8iw?sub_confirmation=1">Go to Pink Bananas' YouTube channel</a></p>
